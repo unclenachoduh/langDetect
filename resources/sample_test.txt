@@ -1,0 +1,10 @@
+Danish	Hunden spiste drengens lektier, før han kunne slå den ind for en karakter.
+English	The dog ate the boy's homework before he could turn it in for a grade.
+Esperanto	La hundo manĝis la hejmtaskon de la knabo antaŭ ol li povis turni ĝin por grado.
+French	Le chien a mangé les devoirs du garçon avant de pouvoir le donner pour une année.
+German	Der Hund aß die Hausaufgaben des Jungen, bevor er sie für eine Note abgeben konnte.
+Hungarian	A kutya megette a fiú házi feladatait, mielőtt egy osztályba fordíthatta volna.
+Icelandic	Hundinn át heimanám drengsins áður en hann gat snúið því inn í bekk.
+Polish	Pies zjadł pracę domową chłopaka, zanim zdążył ją włączyć do oceny.
+Portuguese	O cachorro comeu o dever de casa do garoto antes que ele pudesse entregá-lo.
+Spanish	El perro comió la tarea del niño antes de que pudiera entregarla para un grado.
