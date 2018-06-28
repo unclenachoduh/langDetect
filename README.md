@@ -1,5 +1,7 @@
 # LangDetect: Naïve Bayesian Language Classifier
 
+By: Uncle Nacho, duh.
+
 ## System Description
 
 This system guesses the language of a string based on the unigrams in the string. Token probability is generated from training data in the form of a unigram count language model and those probabilities are applied to each word in the input sentence for each language model available. The language whose model scores the highest probability is selected, given it beats other languages by a large enough margin.
@@ -8,9 +10,9 @@ If the best scoring language doesn't beat other languages by a large enough marg
 
 **Future System Improvements**
 
-_The system could be improved by including n-gram and character-level training beyond the current unigram model. N-gram training models would likely improve the system accuracy, and character-level training could make the system work for languages with character systems and word-level syntax that varies from the developer's native language (English)._
+The system could be improved by including n-gram and character-level training beyond the current unigram model. N-gram training models would likely improve the system accuracy, and character-level training could make the system work for languages with character systems and word-level syntax that varies from the developer's native language (English).
 
-_On an unseen dataset, the system encountered some encoding errors._
+On an unseen dataset, the system encountered some encoding errors. Some encoding expertise is needed to ensure processing.
 
 ## Running The System
 
