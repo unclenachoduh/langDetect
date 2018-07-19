@@ -39,7 +39,7 @@ if __name__ == "__main__":
 		print("|                        |")
 		print("+------------------------+\n")
 
-	elif len(sys.argv) == 5 and sys.argv[4] == "uni":
+	elif len(sys.argv) == 5 and sys.argv[4] == "NB":
 		print("\n+----- Unigram langDetect ----+")
 		print("|                             |")
 

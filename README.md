@@ -38,7 +38,7 @@ The `train_data_folder` should have at least one text file with a unigram langua
 
 To run the Naïve Bayes version of the system, include the argument `NB`:
 
-`python3 src/langDetect.py <train_data_folder> <input_file> <output_file> uni`
+`python3 src/langDetect.py <train_data_folder> <input_file> <output_file> NB`
 
 The code should execute and terminate quickly.
 
