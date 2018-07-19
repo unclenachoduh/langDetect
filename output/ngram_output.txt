@@ -1,0 +1,324 @@
+Armenian	Շունն ուտում էր տղայի տնային աշխատանքը, նախքան այն կարող էր դասարան դառնալ:
+Armenian		129
+Bulgarian		24
+Chinese		24
+English		24
+Esperanto		43
+French		24
+Hebrew		24
+Itialian		24
+Japanese		24
+Korean		24
+Portuguese		24
+Russian		24
+Spanish		24
+Vietnamese		24
+
+result: 	Armenian
+
+Bulgarian	Кучето изяде домашното момче, преди да успее да го включи в клас.
+Armenian		13
+Bulgarian		153
+Chinese		13
+English		13
+Esperanto		13
+French		22
+Hebrew		13
+Itialian		13
+Japanese		31
+Korean		13
+Portuguese		13
+Russian		98
+Spanish		13
+Vietnamese		13
+
+result: 	Bulgarian
+
+Chinese	這隻狗吃掉了男孩的作業，然後才能把它變成一個等級。
+Armenian		0
+Bulgarian		0
+Chinese		24
+English		0
+Esperanto		0
+French		0
+Hebrew		0
+Itialian		0
+Japanese		15
+Korean		0
+Portuguese		0
+Russian		1
+Spanish		0
+Vietnamese		1
+
+result: 	Chinese
+
+Danish	Hunden spiste drengens lektier, før han kunne slå den ind for en karakter.
+Armenian		71
+Bulgarian		71
+Chinese		71
+English		82
+Esperanto		82
+French		82
+Hebrew		71
+Itialian		71
+Japanese		71
+Korean		71
+Portuguese		71
+Russian		82
+Spanish		93
+Vietnamese		82
+
+result: 	unk
+
+English	The dog ate the boy's homework before he could turn it in for a grade.
+Armenian		66
+Bulgarian		65
+Chinese		100
+English		219
+Esperanto		100
+French		89
+Hebrew		67
+Itialian		89
+Japanese		89
+Korean		89
+Portuguese		67
+Russian		132
+Spanish		66
+Vietnamese		78
+
+result: 	English
+
+Esperanto	La hundo manĝis la hejmtaskon de la knabo antaŭ ol li povis turni ĝin por grado.
+Armenian		62
+Bulgarian		61
+Chinese		62
+English		73
+Esperanto		206
+French		127
+Hebrew		62
+Itialian		128
+Japanese		62
+Korean		62
+Portuguese		85
+Russian		73
+Spanish		149
+Vietnamese		73
+
+result: 	Esperanto
+
+French	Le chien a mangé les devoirs du garçon avant de pouvoir le donner pour une année.
+Armenian		74
+Bulgarian		74
+Chinese		74
+English		98
+Esperanto		96
+French		282
+Hebrew		74
+Itialian		110
+Japanese		76
+Korean		74
+Portuguese		88
+Russian		87
+Spanish		120
+Vietnamese		87
+
+result: 	French
+
+German	Der Hund aß die Hausaufgaben des Jungen, bevor er sie für eine Note abgeben konnte.
+Armenian		78
+Bulgarian		74
+Chinese		78
+English		111
+Esperanto		89
+French		101
+Hebrew		78
+Itialian		90
+Japanese		78
+Korean		78
+Portuguese		78
+Russian		78
+Spanish		79
+Vietnamese		78
+
+result: 	unk
+
+Hungarian	A kutya megette a fiú házi feladatait, mielőtt egy osztályba fordíthatta volna.
+Armenian		94
+Bulgarian		95
+Chinese		96
+English		96
+Esperanto		97
+French		97
+Hebrew		94
+Itialian		96
+Japanese		96
+Korean		96
+Portuguese		100
+Russian		98
+Spanish		100
+Vietnamese		100
+
+result: 	unk
+
+Hebrew	הכלב אכל את שיעורי הבית של הילד לפני שהספיק לכיתה.
+Armenian		1
+Bulgarian		1
+Chinese		1
+English		1
+Esperanto		1
+French		1
+Hebrew		96
+Itialian		1
+Japanese		1
+Korean		1
+Portuguese		1
+Russian		1
+Spanish		1
+Vietnamese		1
+
+result: 	Hebrew
+
+Icelandic	Hundinn át heimanám drengsins áður en hann gat snúið því inn í bekk.
+Armenian		47
+Bulgarian		46
+Chinese		47
+English		47
+Esperanto		71
+French		59
+Hebrew		47
+Itialian		47
+Japanese		47
+Korean		47
+Portuguese		64
+Russian		61
+Spanish		75
+Vietnamese		86
+
+result: 	unk
+
+Italian	Il cane mangiò i compiti del ragazzo prima che potesse trasformarlo in un grado.
+Armenian		75
+Bulgarian		77
+Chinese		77
+English		99
+Esperanto		77
+French		110
+Hebrew		75
+Itialian		219
+Japanese		77
+Korean		77
+Portuguese		77
+Russian		88
+Spanish		131
+Vietnamese		89
+
+result: 	Itialian
+
+Japanese	犬は少年の宿題を食べてから、学年に入ることができました。
+Armenian		0
+Bulgarian		0
+Chinese		10
+English		0
+Esperanto		0
+French		0
+Hebrew		0
+Itialian		0
+Japanese		27
+Korean		1
+Portuguese		0
+Russian		0
+Spanish		0
+Vietnamese		1
+
+result: 	Japanese
+
+Korean	개는 학년을 보내기 전에 소년의 숙제를 먹었습니다.
+Armenian		1
+Bulgarian		1
+Chinese		1
+English		1
+Esperanto		1
+French		1
+Hebrew		1
+Itialian		1
+Japanese		1
+Korean		43
+Portuguese		1
+Russian		1
+Spanish		1
+Vietnamese		1
+
+result: 	Korean
+
+Polish	Pies zjadł pracę domową chłopaka, zanim zdążył ją włączyć do oceny.
+Armenian		53
+Bulgarian		57
+Chinese		57
+English		72
+Esperanto		68
+French		57
+Hebrew		53
+Itialian		57
+Japanese		57
+Korean		57
+Portuguese		68
+Russian		57
+Spanish		68
+Vietnamese		72
+
+result: 	unk
+
+Portuguese	O cachorro comeu o dever de casa do garoto antes que ele pudesse entregá-lo.
+Armenian		83
+Bulgarian		83
+Chinese		83
+English		106
+Esperanto		105
+French		106
+Hebrew		83
+Itialian		106
+Japanese		83
+Korean		83
+Portuguese		236
+Russian		96
+Spanish		140
+Vietnamese		107
+
+result: 	Portuguese
+
+Russian	Собака съела домашнее задание мальчика, прежде чем он смог превратить его в класс.
+Armenian		13
+Bulgarian		92
+Chinese		13
+English		13
+Esperanto		13
+French		29
+Hebrew		13
+Itialian		13
+Japanese		38
+Korean		13
+Portuguese		13
+Russian		222
+Spanish		13
+Vietnamese		13
+
+result: 	Russian
+
+Spanish	El perro comió la tarea del niño antes de que pudiera entregarla para un grado.
+Armenian		62
+Bulgarian		62
+Chinese		62
+English		96
+Esperanto		95
+French		107
+Hebrew		62
+Itialian		118
+Japanese		62
+Korean		62
+Portuguese		150
+Russian		74
+Spanish		270
+Vietnamese		75
+
+result: 	Spanish
+

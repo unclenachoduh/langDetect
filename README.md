@@ -1,26 +1,44 @@
-# LangDetect: Naïve Bayesian Language Classifier
+# LangDetect
+
+A simple language detection system.
 
 By: Uncle Nacho, duh.
 
 ## System Description
 
-This system guesses the language of a string based on the unigrams in the string. Token probability is generated from training data in the form of a unigram count language model and those probabilities are applied to each word in the input sentence for each language model available. The language whose model scores the highest probability is selected, given it beats other languages by a large enough margin.
+This system guesses the language of a string based on its superficial characteristics (AKA, words). There are two implementations: Naïve Bayes and N-grams. The N-grams implementation is generally more performant.
+
+### N-gram-oriented Classifier
+
+This implementation counts the number of n-grams from the input that are seen in the model. This includes characters and n-grams from size one to four. It is possible that increasing the n-gram size _could_ increase system performance, but these increases are likely marginal. 
+
+The count for each N-gram is multiplied by ten times the number of it's size plus one. Characters are weighted by 1, unigrams by 11, bigrams by 21, etc.
+
+If the best scoring language does not beat the next best score by a margin of 25% or the next best three scores by a margin of 30%, then the result "unknown" is returned.
+
+### Naïve Bayessian Language Classifier
+
+This implementation uses only unigrams for classification. Token probability is generated from training data in the form of a unigram count language model and those probabilities are applied to each word in the input sentence for each language model available. The language whose model scores the highest probability is selected, given it beats other languages by a large enough margin.
 
 If the best scoring language doesn't beat other languages by a large enough margin, the guess is "unknown". This system is reliable and leans towars false negatives rather than false positives. 
 
-**Future System Improvements**
+**System Limitations**
 
-The system could be improved by including n-gram and character-level training beyond the current unigram model. N-gram training models would likely improve the system accuracy, and character-level training could make the system work for languages with character systems and word-level syntax that varies from the developer's native language (English).
+This system is built to return more false negatives than false positives. If language models are unequal in size and quality, this implementation will struggle to return accurate results, as opposed to the N-gram implementation, which is generally performant within reason.
 
 On an unseen dataset, the system encountered some encoding errors. Some encoding expertise is needed to ensure processing.
 
 ## Running The System
 
-In the `root` directory, run:
+To run the N-gram system, in the `root` directory, run:
 
-`python3 langDetect.py <train_data_folder> <input_file> <output_file>`
+`python3 src/langDetect.py <train_data_folder> <input_file> <output_file>`
 
-The `train_data_folder` should have at least one text file with a unigram language model. The name of each language model file will be used as the language name in the output. 
+The `train_data_folder` should have at least one text file with a unigram language model. The name of each language model file will be used as the language name in the output.
+
+To run the Naïve Bayes version of the system, include the argument `NB`:
+
+`python3 src/langDetect.py <train_data_folder> <input_file> <output_file> uni`
 
 The code should execute and terminate quickly.
 
@@ -36,7 +54,21 @@ The main script `langDetect.py` processes a Python list of strings to identify. 
 
 _\* If the language with the best score does not win by a large enough margin, a result of "unknown" is returned in order to avoid incorrect guesses._
 
+## Sample Tests
+
+You can test the system with the command:
+
+`python3 src/langDetect.py test`
+
+This will test both the Naïve Bayes and N-gram system and write the output to the `output/` directory.
+
 ## Precision / Recall
+
+### N-gram
+
+100% precision and recall. 🎉
+
+### Naïve Bayes
 
 **Sample Test Set**
 
@@ -60,16 +92,18 @@ _\* If the language with the best score does not win by a large enough margin, a
 
 ## Sample data
 
-Sample data was created by generating a unigram file from raw Wikipedia articles about dogs.
+Sample data was created by generating unigram and n-gram files from raw Wikipedia articles about dogs.
 
 Those language models should not be used for practical purposes outside of being a sample here. If you do use them, however, that use should be guided by Wikipedia license. 
 
 **Generating Unigram Language Models**
 
-I have included the short script I used to generate the Wikipedia unigram models in `src/unigramGetter.py`.
+I have included the short scripts I used to generate the Wikipedia unigram and n-gram models in `src/unigramGetter.py` and `src/ngramGetter.py`.
 
 From the `root` directory, run:
 
 `python3 src/unigramGetter.py <raw_text_folder> <output_folder>`
 
-For all raw text files in the source folder, it will create a unigram count model with the same name in the output folder.
+`python3 src/ngramGetter.py <raw_text_folder> <output_folder>`
+
+For all raw text files in the source folder, it will create an n-gram count model with the same name in the output folder.

@@ -2,6 +2,10 @@ import sys, os, operator
 from nltk import word_tokenize
 
 folderLocation = sys.argv[1]
+output = sys.argv[2]
+
+if output[-1] != "/":
+	output += "/"
 
 for file in os.listdir(folderLocation):
 	
@@ -21,7 +25,7 @@ for file in os.listdir(folderLocation):
 				word_counts[token] = 1
 	unigrams = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
 
-	wout = open(sys.argv[2] + file, "w+")
+	wout = open(output + file, "w+")
 
 	for gram in unigrams:
 		wout.write(gram[0] + "\t" + str(gram[1]) + "\n")

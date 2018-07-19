@@ -1,18 +1,10 @@
-Armenian	Շունն ուտում էր տղայի տնային աշխատանքը, նախքան այն կարող էր դասարան դառնալ:
-Bulgarian	Кучето изяде домашното момче, преди да успее да го включи в клас.
-Chinese	這隻狗吃掉了男孩的作業，然後才能把它變成一個等級。
 Danish	Hunden spiste drengens lektier, før han kunne slå den ind for en karakter.
 English	The dog ate the boy's homework before he could turn it in for a grade.
 Esperanto	La hundo manĝis la hejmtaskon de la knabo antaŭ ol li povis turni ĝin por grado.
 French	Le chien a mangé les devoirs du garçon avant de pouvoir le donner pour une année.
 German	Der Hund aß die Hausaufgaben des Jungen, bevor er sie für eine Note abgeben konnte.
 Hungarian	A kutya megette a fiú házi feladatait, mielőtt egy osztályba fordíthatta volna.
-Hebrew	הכלב אכל את שיעורי הבית של הילד לפני שהספיק לכיתה.
 Icelandic	Hundinn át heimanám drengsins áður en hann gat snúið því inn í bekk.
-Italian	Il cane mangiò i compiti del ragazzo prima che potesse trasformarlo in un grado.
-Japanese	犬は少年の宿題を食べてから、学年に入ることができました。
-Korean	개는 학년을 보내기 전에 소년의 숙제를 먹었습니다.
 Polish	Pies zjadł pracę domową chłopaka, zanim zdążył ją włączyć do oceny.
 Portuguese	O cachorro comeu o dever de casa do garoto antes que ele pudesse entregá-lo.
-Russian	Собака съела домашнее задание мальчика, прежде чем он смог превратить его в класс.
 Spanish	El perro comió la tarea del niño antes de que pudiera entregarla para un grado.
