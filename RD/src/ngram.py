@@ -43,7 +43,7 @@ def detect(models, test, outfilename):
 		ngrams = [[], [], [], [], []]
 
 # Add characters to ngrams list
-		for c in input_line[1]:
+		for c in input_line:
 			# print("C", c)
 			if c != " ":
 				ngrams[0].append(c.lower())
